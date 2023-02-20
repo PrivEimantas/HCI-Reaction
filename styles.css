@@ -1,0 +1,106 @@
+html, body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #FAFAFA;
+}
+
+header {
+	width: 100vw;
+	min-height: 5vh;
+	background: #00b0f0;
+}
+
+header h1 {
+	padding: 2vh;
+	margin: 0;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+
+header h2 {
+	padding: 2vh;
+	margin: 0;
+	font-size: 1.33em;
+	color: #FFFFFF;
+}
+
+.button {
+	float: left;
+	margin: 1vh;
+	padding: 2vh;
+	display: block;
+	background-color: #00b0f0;
+	font-size: 5vh;
+	text-align: center;
+	color: #FFFFFF;
+	border: solid;
+    border-color: rgb(88, 88, 88);
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+#description {
+    position: relative;
+    width: 26vw;
+    padding: 2vw 2vw;
+    float: left;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+#circle {
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    margin: 0 auto;
+    border-radius: 50%;
+    border-width: 0.5vw;
+    border-style: solid;
+    border-color: rgb(88, 88, 88);
+    padding: 2vw 2vw;
+    background: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.results {
+    width: 792px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 44px;
+    color: #010204;
+}
+
+.times {
+	display: block;
+	width: 792px;
+	margin: 0 auto;
+    text-align: start;
+    font-size: 44px;
+    color: #010204;
+}
+
+#times {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+}
+
+.times-list {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	list-style-type: none;
+}
+
+
+.disabled{
+	pointer-events: none;
+	color: #c0c0c0;
+    background-color: #ffffff;
+}
